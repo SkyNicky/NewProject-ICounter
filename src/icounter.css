@@ -1,0 +1,18 @@
+.counter-wrapper {
+    width: 5%;
+  }
+  
+  .counter-button-minus-active, .counter-button-minus-deactive, .counter-button-add-active {
+    border: none;
+    background: transparent;
+    height: 100%;
+    color: red;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  .counter-button-minus-deactive {
+    cursor: not-allowed;
+    color: gray;
+  }
+  
